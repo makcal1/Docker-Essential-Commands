@@ -1,0 +1,21 @@
+<----------------------------- Basic ---------------------------->
+
+- docker version 	--> gives the version info with details
+
+- docker -v 		--> gives the only version number
+
+- docker info  		--> gives all containers information
+
+- docker --help       --> gives all list of docker commands(Examle: docker images --help)
+
+- docker login 		--> login to the docker hub
+
+- docker logout 		--> logout from docker hub
+
+
+
+
+
+
+
+
