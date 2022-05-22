@@ -1,21 +1,21 @@
 <----------------------------- Basic ---------------------------->
 
-•	docker version 	--> gives the version info with details
-•	docker -v 		--> gives the only version number
-•	docker info  	--> gives all containers information
-•	docker --help    --> gives all list of docker commands(Examle: docker images --help)
-•	docker login 	--> login to the docker hub
-•	docker logout 	--> logout from docker hub
-•	docker images	--> gives the images information, like size
-•	docker pull 	--> pull one image from the docker hub (Example: docker pull ubuntu)
-•	docker rmi 		--> remove image(Example:docker rmi <IMAGE ID>
-•	docker ps 		--> gives the list of containers
-•	docker run 		--> will verify, download from docker hubs if the container is not in the images, and run the container(Example: docker run -it ubuntu)
+•	docker version 	            --> gives the version info with details
+•	docker -v 		              --> gives the only version number
+•	docker info    	            --> gives all containers information
+•	docker --help               --> gives all list of docker commands(Examle: docker images --help)
+•	docker login 	              --> login to the docker hub
+•	docker logout 	            --> logout from docker hub
+•	docker images	              --> gives the images information, like size
+•	docker pull 	              --> pull one image from the docker hub (Example: docker pull ubuntu)
+•	docker rmi 		              --> remove image(Example:docker rmi <IMAGE ID>
+•	docker ps 		              --> gives the list of containers
+•	docker run 		              --> will verify, download from docker hubs if the container is not in the images, and run the container(Example: docker run -it ubuntu)
 •	docker stop	 <Container ID>	--> stop the container
 •	docker start <Container ID>	--> start the container
-•	docker stats 	--> gives the statistic of containers (like cpu, mem usage)
-•	docker system df --> gives the information about the number of images, the number  containers,local valumes, size
-•	docker system prune -f --> removes all stop containers
+•	docker stats 	              --> gives the statistic of containers (like cpu, mem usage)
+•	docker system df            --> gives the information about the number of images, the number  containers,local valumes, size
+•	docker system prune -f      --> removes all stop containers
 
 
 
