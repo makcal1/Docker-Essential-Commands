@@ -8,9 +8,9 @@
 •	docker logout --> logout from docker hub
 •	docker images	--> gives the images information, like size
 •	docker pull 	--> pull one image from the docker hub (Example: docker pull ubuntu)
-•	docker rmi 		--> remove image(Example:docker rmi <IMAGE ID>
-•	docker ps 		--> gives the list of containers
-•	docker run 		--> will verify, download from docker hubs if the container is not in the images, and run the container(Example: docker run -it ubuntu)
+•	docker rmi --> remove image(Example:docker rmi <IMAGE ID>
+•	docker ps --> gives the list of containers
+•	docker run--> will verify, download from docker hubs if the container is not in the images, and run the container(Example: docker run -it ubuntu)
 •	docker stop	 <Container ID>	--> stop the container
 •	docker start <Container ID>	--> start the container
 •	docker stats --> gives the statistic of containers (like cpu, mem usage)
