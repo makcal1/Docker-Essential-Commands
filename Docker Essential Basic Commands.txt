@@ -1,24 +1,37 @@
-<----------------------------- Basic ---------------------------->
+<----------------------------- Docker Basic ---------------------------->
 
-docker version 	--> gives the version info with details
-docker -v 		--> gives the only version number
-docker info  	--> gives all containers information
-docker --help    --> gives all list of docker commands(Examle: docker images --help)
-docker login 	--> login to the docker hub
-docker logout 	--> logout from docker hub
-docker images	--> gives the images information, like size
-docker pull 	--> pull one image from the docker hub (Example: docker pull ubuntu)
-docker rmi 		--> remove image(Example:docker rmi <IMAGE ID>
-docker ps 		--> gives the list of containers
-docker run 		--> will verify, download from docker hubs if the container is not in the images, and run the container(Example: docker run -it ubuntu)
-docker stop	 <Container ID>	--> stop the container
-docker start <Container ID>	--> start the container
-docker stats 	--> gives the statistic of containers (like cpu, mem usage)
-docker system df --> gives the information about the number of images, the number  containers,local valumes, size
-docker system prune -f --> removes all stop containers
-docker compose down --> stop the containers that were triggered by the yml file
-docker compose up --> it will run the yml file
-docker compose scale chrome=3 --> it will increase the number of nodes in the selenium grid
+$ docker version 	--> gives the version info with details
+$ docker -v 		--> gives the only version number
+$ docker info  	--> gives all containers information
+$ docker --help    --> gives all list of docker commands(Examle: docker images --help)
+$ docker login 	--> login to the docker hub
+$ docker logout 	--> logout from docker hub
+$ docker images	--> gives the images information, like size
+$ docker pull 	--> pull one image from the docker hub (Example: docker pull ubuntu)
+$ docker rmi 		--> remove image(Example:docker rmi <IMAGE ID>
+$ docker ps 		--> gives the list of containers
+$ docker run 		--> will verify, download from docker hubs if the container is not in the images, and run the container(Example: docker run -it ubuntu)
+$ docker stop	 <Container ID>	--> stop the container
+$ docker start <Container ID>	--> start the container
+$ docker stats 	--> gives the statistic of containers (like cpu, mem usage)
+$ docker system df --> gives the information about the number of images, the number  containers,local valumes, size
+$ docker system prune -f --> removes all stop containers
+$ docker compose down --> stop the containers that were triggered by the yml file
+$ docker compose up --> it will run the yml file
+$ docker compose scale chrome=3 --> it will increase the number of nodes in the selenium grid
+$ docker top -->  inspecting the container
+$ docker logs --follow --tail 10 7786807d8084 -->  shows the standard output of the container process
+$ docker-machine ip machine-name -->  get the ip adress of the mach
+$ docker network ls -->  shows all the network
+$ docker inspect <container> -->  get all info
+
+
+<----------------------------- LLinux Performance Basic Command ---------------------------->
+$ df -h * -->  shows the usage of memory for each file in the dir
+$ mpstat 2 10 -->  To get processors related statistics you can use mpstat command but with some options it will provide better
+visibility:
+$ iostat -kx 2 -->  To get general information about your disk operations in real time you can utilise iosta
+$ lscpu     -->  easy way to get CPU info
 
 
 
